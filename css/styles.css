@@ -95,6 +95,13 @@ body {
   padding: 16px 32px;
   cursor: pointer;
 }
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--pressed-state);
+  color: var(--main);
+}
+
 /*---------------------top priorities ------------------ */
 .visually-hidden {
   position: absolute;

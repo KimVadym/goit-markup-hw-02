@@ -52,6 +52,9 @@ body {
 .page-navigation:focus {
   color: var(--pressed-state);
 }
+.connection {
+  font-style: normal;
+}
 
 .contacts {
   font-weight: 400;

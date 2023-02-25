@@ -137,6 +137,9 @@ body {
 .team {
   background-color: var(--light);
 }
+.team-titel {
+  background-color: var(--main);
+}
 
 .team-item {
   font-weight: 700;

@@ -201,6 +201,7 @@ footer {
   border: 1px solid var(--accent);
   border-radius: 4px;
   color: var(--primary-brand);
+  padding: 12px 24px;
 }
 .project-button:hover,
 .project-button:focus {

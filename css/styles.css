@@ -221,3 +221,7 @@ footer {
   letter-spacing: 0.02em;
   color: var(--text);
 }
+.project-titel {
+  background: var(--main);
+  border: 1px solid #e7e9fc;
+}

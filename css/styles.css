@@ -13,10 +13,8 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   background: var(--main);
   color: var(--dark);
-  width: 1440px;
 }
 .link {
   list-style: none;
@@ -30,13 +28,11 @@ body {
   color: var(--primary-brand);
 }
 .logo {
-  font-family: "Raleway";
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  display: flex;
-  align-items: center;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--dark);
@@ -89,8 +85,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
+  font-family: inherit;
   letter-spacing: 0.04em;
   padding: 16px 32px;
   cursor: pointer;
@@ -140,6 +135,10 @@ body {
   color: var(--dark);
 }
 /*-------------------------------- our team----------------------- */
+.team {
+  background-color: var(--light);
+}
+
 .team-item {
   font-weight: 700;
   font-size: 36px;
@@ -157,7 +156,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark);
 }
-.job-title {
+.job-titel {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -165,25 +164,22 @@ body {
   letter-spacing: 0.02em;
   color: var(--text);
 }
-/* -------------------------footer------------------- */
+/*-------------------------footer------------------- */
 footer {
   background-color: var(--dark);
-  height: 310px;
 }
 .logo-footer {
   color: var(--light);
   font-family: "Raleway";
-  font-style: normal;
+
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
-  display: flex;
-  align-items: center;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .footer-item {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -194,6 +190,7 @@ footer {
 
 /*---------------------------- our project-------------------- */
 .project-button {
+  font-family: inherit;
   cursor: pointer;
   background: var(--light);
   border: 1px solid var(--accent);
